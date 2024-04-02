@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination & Results</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="dbatu-removebg-preview.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/89fe5d8506.js" crossorigin="anonymous"></script>
+    <style>
+        
+        .top-nav {
+            height: 35px;
+            background-color: #49688e;
+            display: flex;
+            align-items: center;
+        }
+        .top-nav a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            border-right: 2px solid white;
+            font-size: 12px;
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            height: 115px;
+            width: 100%;
+            background-color: white;
+            position: relative;
+            display: flex;
+            float: left;
+        }
+
+        .navbar img {
+            width: 85px;
+            padding-left: 120px;
+            padding-right: 10px;
+        }
+        
+        .heading {
+            text-decoration: none;
+            font-family: "Playfair Display", serif;
+            font-size: 25px;
+            padding-top: 15px;
+            color: #294a70;
+            text-shadow: 1px 1px 1px #000;
+        }
+        .navbar h4 {
+            margin: 5px;
+            font-family: sans-serif;
+        }
+        .search {
+            position: absolute;
+            top: 30%;
+            right: 50px;
+            
+        }
+        .search input {
+            padding: 20px 50px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .search a {
+            background-color: #1b3149;
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        body {
+            padding: 0%;
+            margin: 0%;
+        }
+        .bottom-navbar {
+            height: 50px;
+            background-color: #1b3149;
+            display: flex;
+            align-items: center;
+            padding-left: 10%;
+            border-radius: 10px;
+            box-shadow: 3px 3px #f4a024;
+        }
+        .bottom-navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            border-left: 2px solid white;
+        }
+
+        .exam {
+            /* width: 100%; */
+            height: 50px;
+            text-shadow: 0.1px 0.1px 0.1px #000;
+            background-color: rgb(102, 102, 102,0.1);
+            
+            margin-top: 0%;
+            padding-top: 1px;
+            
+        }
+
+        .exam p {
+            font-family: sans-serif;
+            padding-left: 10%;
+        }
+
+        .grid-container {
+            position: relative;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            position: absolute;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .last-div {
+            width: 290px;
+            height: 100%;
+            background-color: #294a70;
+            position: relative;
+        }
+        .last-div img {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .edu {
+            background-color: #db0368;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            padding: 10px;
+            margin-left: 40px;
+            box-shadow: 10px 5px 12px black;
+            font-size: 13px;
+            text-align: center;
+        }
+        .white-div {
+            width: 90%;
+            height: 100%;
+            background-color: white;
+            position: absolute;
+            left: 5%;
+            margin-top: 25px;
+            text-align: left;
+        }
+        .white-div li {
+            list-style-type: none;
+            padding-left: 0%;
+        }
+        .white-div h4 {
+            background-color: #294a70;
+            color: white;
+            margin-top: 0%;
+            border-top: 2px solid #0099ff;
+            border-left: 5px solid #ffab1f;
+            padding: 5px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .grid a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="top-nav">
+            <div style="padding-left: 10%;">
+                <a href="">1 april 2024</a>
+                <a href="">Skip to Main Content</a>
+                <a href="">Screen Reader Access</a>
+                <a href=""><label for="">Select langguage</label></a>
+                <a href="">Font Resize</a>
+               </div>
+        </div>
+        
+        <div class="navbar">
+              <div>
+
+                  <img src="https://dbatu.ac.in/wp-content/uploads/2022/12/cropped-OQSD-Wtj.jpeg" alt="">
+              </div>
+            <div>
+                <a class="heading">Dr.Babasaheb Ambedkar Technologocal University</a>
+                <h4>डॉ. बाबासाहेब आंबेडकर तंत्रशास्त्र विद्यापीठ </h4>
+                <h4>Lonere-402103 Tal- Mangaon, Dist- Raigad (M.S.) India.</h4>
+
+            </div>
+            <div class="search">
+                <input type="text"> 
+                <a class="search-btn" href="">search</a>
+            </div>
+            
+            </div>
+            
+        
+        <div class="bottom-navbar">
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href="">University</a>
+            <a href="">Governance</a>
+            <a href="">Examination</a>
+            <a href="">Acadamics</a>
+            <a href="">Affiliation</a>
+            <a href="">Student Corner</a>
+            <a href="">Research</a>
+            <a href="">IQAC</a>
+            <a href="">More</a>
+            <a href="" style="border-right: 2px solid white;">Get In Touch</a>
+            
+        </div>
+        <div class="exam">
+            <p>Examination & Result</p> 
+        </div>
+
+    <div class="grid-container">
+        <div class="grid">
+            <div>
+                <ol>
+                    <dt>Question Bank</dt>
+                    <li>1. Model Questions & Answers(2017)</li>
+                </ol>
+                <ul>
+                    <dt>Time Tables</dt>
+                    <li><a href="">Architecture</a></li>
+                    <li><a href="">Engineering & Technology</a></li>
+                    <li><a href="">Pharmacy</a></li>
+                </ul>
+
+                <ul>
+                    <dt>Procedure</dt>
+                    <a href=""><li>Photo/ScanCopy & Revaluation</li></a>
+                    <a href=""><li>Photocopy Revaluation notice <br>
+                        First Year M Tech May 2018</li></a>
+                </ul>
+                <ul>
+                    <li>Verification</li>
+                    <li>Transcription</li>
+                    <li>Provisional Passing Certificate</li>
+                    <li>Degree Certificate</li>
+                    <li>Duplicate Certificate</li>
+                    <li>Conversion Formula</li>
+                    <li>Instruction Certificate</li>
+                </ul>
+
+            </div>
+            <div>
+                <ul>
+                    <dt>Results</dt>
+                    <p>Following Results of Third Year and <br> Final Year Winter Sem Regular Students</p>
+                    <dd>Decleared</dd>
+                    <li><a href="display.html"><b>B.Tech</b> <sub style="color: red;">NEW</sub></a></li>
+                    <li><a href="">B.Pharm</a></li>
+                    <li><a href="">M.Tech</a></li>
+                    <li><a href="">M.Pharm</a></li>
+                    <li><a href="">B.Arch</a></li>
+                </ul>
+            </div>
+            <div class="div-4"> 
+                <ul>
+                    <dt>Solution Sheet</dt>
+                    <li><a href="">Architecture Mid Sem Model Answer Papers</a></li>
+                    <li><a href="">First Year Math 101 Model Answer (October 3, 2017)</a></li>
+                    <li><a href="">First Year HS 102 Model Answer</a></li>
+                    <li><a href="">First Year ME 102 Model Answer</a></li>
+                    <li><a href="">First Year CV 105 Model Answer</a></li>
+                    <li><a href="">First Year EE 104 Model Answer</a></li>
+                    <li><a href="">First Year PHY 103 Model Answer</a></li>
+                    <li><a href="">First Year CHEM 103 Model Answer</a></li>
+                    <li><a href="">First Year ME 104 Model Answer</a></li>
+                    <li><a href="">First Year CHE 106 Model Answer</a></li>
+                    <li><a href="">First Year EXE 105 Model Answer</a></li>
+                    <li><a href="">First Year ICT 106 Model Answer</a></li>
+                    <li><a href="">BP 101 Model Answer Sheet</a></li>
+                    <li><a href="">CVCTM 101 Model  Answer</a></li>
+                    <li><a href="">CSVE 101 Model Answer Sheet</a></li>
+                    <li><a href="">MEXX 101 Model Answersheet</a></li>
+                    <li><a href="">MMD 101 Model  Answer Sheet</a></li>
+                    <li><a href="">MME 101 Model Answer Sheet</a></li>
+                    <li><a href="">MMF 101 Model Answer Sheet</a></li>
+                    <li><a href="">MMF 104 Model Answer Sheet</a></li>
+                    <li><a href="">MPA 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTCS 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTECC 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTEDC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTESC 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTETC 101_MTCEC 101_MTDCC 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTF 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTVEC 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTVLC 101 Model Answer Sheet</a></li>
+                    <li><a href="">MTEEC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTEPS 102 Model Answer Sheet</a></li>
+                    <li><a href="">MTESC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTVEC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTVLC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTCE 101 Model Answer Sheet</a></li>
+                    <li><a href="">MMF 103 Model Answer Sheet</a></li>
+                    <li><a href="">BP 102T Model Answer Sheet</a></li>
+                    <li><a href="">CVCTM 103 Model Answer Sheet</a></li>
+                    <li><a href="">MEXX 103 Model Answer Sheet</a></li>
+                    <li><a href="">MMD 103 Model Answer Sheet</a></li>
+                    <li><a href="">MME 103 Model Answer Sheet</a></li>
+                    <li><a href="">MMF104E Model Answer Sheet</a></li>
+                    <li><a href="">MPC 101T Model Answer Sheet</a></li>
+                    <li><a href="">MPH 101T Model Answer Sheet</a></li>
+                    <li><a href="">MPL 101T Model Answer Sheet</a></li>
+                    <li><a href="">MTCE 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTDCC 103 Model Answer Sheet</a></li>
+                    <li><a href="">MTE 103  Model Answer Sheet</a></li>
+                    <li><a href="">MTECC 103_MTCEC 103_MTETC 103 Model Answer Sheet</a></li>
+                    
+                </ul>
+            </div>
+            <div class="last-div">
+                <img src="https://dbatu.ac.in/wp-content/uploads/2023/08/gtwentyNew.png" alt="">
+                <a  href=""><span class="edu">National Education Policy 2020</span></a>
+                <div class="white-div">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <ul>
+                            <dt><a href=""><i class="fa-solid fa-angles-right"></i>About University</a></dt>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Vision & Mission</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>University Emblem</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Institutional Values</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>विद्यापीठ गीत</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>University Information Brochure</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Acts, Rules, Ordinances and Statutes</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Perspective Plan (2020-25)</a>History</li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Perspective Plan (2016-21)</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Strategic Plan (2016-21)</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>NISP Action Plan Dr. BATU Lonere</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>National Innovation and Start Up Policy</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Annual Reports</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>AQAR</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Mandatory disclosure</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>AICTE EOA/LOA</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Measures initiated for the promotion of gender equity</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Energy Audit Report</a></li>
+                            <dt><a href=""><i class="fa-solid fa-angles-right"></i>Governance</a></dt>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>The Chancellor</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>The Vice-Chancellor</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Organizational Chart</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Registrar</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Executive Council</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Academic Council</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Planning and Evaluation(Monitoring) Board</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Finance Commitee</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Building and Works Committee</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>List of Various Authority</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Constitution of Grievance Redressal Committee</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Anti-Ragging Committee</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Internal Complaint Committee</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Minutes of Meetings</a></li>
+                            <dt><a href=""><i class="fa-solid fa-angles-right"></i>University Departments</a></dt>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Academic Programs</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Faculty & Staff Directory</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Faculty/Staff Notice</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>One Page Faculty Information (University Departments)</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Seniority list [Faculty/Staff]</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Diploma Wing</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Advanced Diploma in Water Quality Management</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Code of ethics and Conduct</a></li>
+                            <li><a href=""><i class="fa-solid fa-angles-right"></i>Faculty Development Center (FDC)</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
